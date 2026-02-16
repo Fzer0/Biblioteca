@@ -1,4 +1,4 @@
-package com.fblc.bibliotecas.modelo.entidad;
+package com.fblc.Biblioteca.modelo.entidad;
 
 import java.io.Serializable;
 import jakarta.persistence.Entity;
@@ -9,6 +9,8 @@ import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import lombok.Data;
+import java.time.LocalDate;
+
 
 @Entity
 @Data
@@ -19,8 +21,8 @@ public class Prestamo implements Serializable {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id_prestamo;
 	
-	private Data fecha_prestamo;
-	private Data fecha_devolucion;
+	private LocalDate fecha_prestamo;
+	private LocalDate fecha_devolucion;
 	private String estado_prestamo;
 	
     @ManyToOne(fetch = FetchType.LAZY)

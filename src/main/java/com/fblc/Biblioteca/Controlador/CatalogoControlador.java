@@ -11,8 +11,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.fblc.bibliotecas.modelo.entidad.Catalogo;
-import com.fblc.bibliotecas.servicio.ICatalogoServivio;
+import com.fblc.Biblioteca.modelo.entidad.Catalogo;
+import com.fblc.Biblioteca.servicio.ICatalogoServivio;
+
+
 
 @RestController
 @RequestMapping("/api/catalogo")

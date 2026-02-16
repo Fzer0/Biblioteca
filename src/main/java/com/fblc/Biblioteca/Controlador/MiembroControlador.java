@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.fblc.bibliotecas.modelo.entidad.Miembro;
-import com.fblc.bibliotecas.servicio.IMiembroServicio;
+import com.fblc.Biblioteca.modelo.entidad.Miembro;
+import com.fblc.Biblioteca.servicio.IMiembroServicio;
 
 @RestController
 @RequestMapping("/api/miembro")

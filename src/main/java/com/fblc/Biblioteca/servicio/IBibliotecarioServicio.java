@@ -1,8 +1,10 @@
-package com.fblc.bibliotecas.servicio;
+package com.fblc.Biblioteca.servicio;
 
 import java.util.List;
 
-import com.fblc.bibliotecas.modelo.entidad.Bibliotecario;
+import com.fblc.Biblioteca.modelo.entidad.Bibliotecario;
+
+
 
 public interface IBibliotecarioServicio {
 

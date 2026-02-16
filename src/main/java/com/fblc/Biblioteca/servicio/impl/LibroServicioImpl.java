@@ -1,13 +1,15 @@
-package com.fblc.bibliotecas.servicio.impl;
+package com.fblc.Biblioteca.servicio.impl;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
-import com.fblc.bibliotecas.modelo.entidad.Libro;
-import com.fblc.bibliotecas.repositorio.ILibroRepositorio;
-import com.fblc.bibliotecas.servicio.ILibroServicio;
+import com.fblc.Biblioteca.modelo.entidad.Libro;
+import com.fblc.Biblioteca.repositorio.ILibroRepositorio;
+import com.fblc.Biblioteca.servicio.ILibroServicio;
+
+
 
 @Service
 @Component

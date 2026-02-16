@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.fblc.bibliotecas.modelo.entidad.Libro;
-import com.fblc.bibliotecas.servicio.ILibroServicio;
+import com.fblc.Biblioteca.modelo.entidad.Libro;
+import com.fblc.Biblioteca.servicio.ILibroServicio;
 
 @RestController
 @RequestMapping("/api/libro")

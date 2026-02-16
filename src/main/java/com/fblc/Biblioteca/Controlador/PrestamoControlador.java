@@ -11,14 +11,14 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.fblc.bibliotecas.modelo.entidad.Bibliotecario;
-import com.fblc.bibliotecas.modelo.entidad.Libro;
-import com.fblc.bibliotecas.modelo.entidad.Miembro;
-import com.fblc.bibliotecas.modelo.entidad.Prestamo;
-import com.fblc.bibliotecas.servicio.IBibliotecarioServicio;
-import com.fblc.bibliotecas.servicio.ILibroServicio;
-import com.fblc.bibliotecas.servicio.IMiembroServicio;
-import com.fblc.bibliotecas.servicio.IPrestamoServicio;
+import com.fblc.Biblioteca.modelo.entidad.Bibliotecario;
+import com.fblc.Biblioteca.modelo.entidad.Libro;
+import com.fblc.Biblioteca.modelo.entidad.Miembro;
+import com.fblc.Biblioteca.modelo.entidad.Prestamo;
+import com.fblc.Biblioteca.servicio.IBibliotecarioServicio;
+import com.fblc.Biblioteca.servicio.ILibroServicio;
+import com.fblc.Biblioteca.servicio.IMiembroServicio;
+import com.fblc.Biblioteca.servicio.IPrestamoServicio;
 
 @RestController
 @RequestMapping("/api/prestamo")

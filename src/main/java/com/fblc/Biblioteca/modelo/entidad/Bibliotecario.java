@@ -1,4 +1,4 @@
-package com.fblc.bibliotecas.modelo.entidad;
+package com.fblc.Biblioteca.modelo.entidad;
 
 import java.io.Serializable;
 
